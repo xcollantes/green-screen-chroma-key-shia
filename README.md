@@ -21,7 +21,7 @@ Superimpose Shia on the below image of me and friends.
 
 5) The threshold is the heart of the algorithm, therefore outputing the RGB values for each pixel from the Shia LaBeouf image into a CSV could provide insight to an improved algorithm.   
 
-6) Voila, we have our final product.  
+6) Voil&aacute;, we have our final product.  I don't seem to have made the final cut but that's okay.  
 <img alt='Shia LaBeouf' width='50%' height='50%' align='center' src='lib/09-Sep-18_00-57-35.png'>
 
 > *"Don't let your dreams be dreams!"*
