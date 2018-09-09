@@ -11,15 +11,20 @@ Superimpose Shia on the below image of me and friends.
 <img alt='For Good' width='50%' height='50%' align='center' src='lib/transpose_horizontal.png'>
 
 ## How It Works
-1) `pillow` or _Python Image Library_ must be used to manipulate images on a pixel level.
+1) Import `pillow` library or _Python Image Library_ must be used to manipulate images on a pixel level.
 
-2) Each pixel of the image containing the green screen is parsed and each pixel [RGB value](rgb) is compared with a threshold in order to determine the 'greenness' of the pixel.  
+2) Each pixel of the image containing the green screen is parsed and compares [RGB value](rgb) with a threshold in order to determine the 'greenness' of the pixel.  
 
-3) Once the 'greenness' of the pixel is determined to indeed be a green screen element, replace the pixel with a corresponding pixel from the background image.  
+3) Once the 'greenness' of the pixel is determined to be a green screen element, replace the pixel with a corresponding pixel from the background image.  
 
 4) After this is repeated for all pixels (Shia LaBeouf image is 509x905, which means 460,645 pixels), save the image as a standalone.  
 
 5) The threshold is the heart of the algorithm, therefore outputing the RGB values for each pixel from the Shia LaBeouf image into a CSV could provide insight to an improved algorithm.   
+
+> Don't let your dreams be dreams!  
+
+Voila, we have our final product.  
+<img alt='Shia LaBeouf Don't let your dreams be dreams' width='50%' height='50%' align='center' src='lib/09-Sep-18_00-57-35.png'>
 
 
 ## Next Steps
