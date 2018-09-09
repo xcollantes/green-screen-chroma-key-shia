@@ -1,5 +1,5 @@
 # Green Screen Processor for Shia LaBeouf
-## What It Does
+
 Take this image of Shia LaBeouf with a green screen behind him from the famous meme where Shia stands in front of a green screen giving a strangely effective motovational speech.  
 
 If you haven't seen it, [check it out](shia).  You'll be glad you did.  
@@ -17,18 +17,21 @@ Superimpose Shia on the below image of me and friends.
 
 3) Once the 'greenness' of the pixel is determined to be a green screen element, replace the pixel with a corresponding pixel from the background image.  
 
-4) After this is repeated for all pixels (Shia LaBeouf image is 509x905, which means 460,645 pixels), save the image as a standalone.  
+4) After this is repeated for all pixels (Shia LaBeouf image is `509x905`, which means 460,645 pixels), save the image as a standalone. 
 
 5) The threshold is the heart of the algorithm, therefore outputing the RGB values for each pixel from the Shia LaBeouf image into a CSV could provide insight to an improved algorithm.   
 
-> Don't let your dreams be dreams!  
 
-Voila, we have our final product.  
-<img alt='Shia LaBeouf Don't let your dreams be dreams' width='50%' height='50%' align='center' src='lib/09-Sep-18_00-57-35.png'>
+
+6) Voila, we have our final product.  
+<img alt='Shia LaBeouf' width='50%' height='50%' align='center' src='lib/09-Sep-18_00-57-35.png'>
+
+> *"Don't let your dreams be dreams!"*
+> Shia LaBeouf
 
 
 ## Next Steps
-Notice the green outline of our hero, Shia LaBeouf, in the final image.  
+Notice a green outline on our hero, Shia LaBeouf, in the final image.  
 Fine tuning the chroma key algorithm to detect a greater range of greens could result in a cleaner image.  
 
 ## Libraries Used
