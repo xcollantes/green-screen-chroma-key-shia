@@ -1,7 +1,7 @@
 # Green Screen Processor for Shia LeBeuofe
 ## What It Does
 Take this image of Shia LaBeouf with a green screen behind him.  
-![Shia LaBeouf](lib/09-Sep-18_00-52-96.png)
+<img alt='Shia LaBeouf' width='50%' height='50%' src='lib/09-Sep-18_00-52-96.png'>
 
 
 ## How It Works
